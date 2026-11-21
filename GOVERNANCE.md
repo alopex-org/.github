@@ -7,8 +7,8 @@ It applies to every repository in the [`alopex-org`](https://github.com/alopex-o
 
 - **The maintainer** owns the organization.
   The maintainer takes the decisions in each repository's roadmap, approves changes to code-owned paths, handles security and code-of-conduct reports, and is the only person who handles release keys and publishes releases.
-- **Members** belong to one of the organization's teams.
-  They push branches to their team's repositories, open pull requests and review each other's changes.
+- **Members** belong to the `alopex` team, which covers every FoxieOS project.
+  They push branches to the project repositories, open pull requests, review each other's changes and take part in the discussion of every decision.
 - **Contributors** are everyone else.
   They open issues, and pull requests from their own forks.
 - **Coding agents** work under a person's direction and follow the repository's `AGENTS.md`.
@@ -25,9 +25,11 @@ It applies to every repository in the [`alopex-org`](https://github.com/alopex-o
 
 ## Access
 
-- Members get access to a repository through a team, never one by one.
-  Each project repository's team has write access to it; the organization's base permission is read.
-  This `.github` repository has no team: its files apply to every repository, so only the maintainer changes them, through pull requests.
+- Members get access to a repository through a team, never one by one; the organization's base permission is read.
+- The `alopex` team has write access to every project repository, and every member belongs to it.
+- The `foxieos` and `foxieos-hardware` teams each have write access to their own repository, and are reserved for roles in that project.
+  They stay empty, apart from the maintainer, until the roles are decided and assigned.
+- This `.github` repository has no team: its files apply to every repository, so only the maintainer changes them, through pull requests.
 - A ruleset protects each repository's `main` branch.
   Each repository's `CONTRIBUTING.md` lists its rules.
 - Two-factor authentication is required for every member.
