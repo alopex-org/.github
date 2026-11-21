@@ -26,7 +26,8 @@ It applies to every repository in the [`alopex-org`](https://github.com/alopex-o
 ## Access
 
 - Members get access to a repository through a team, never one by one.
-  Each repository's team has write access to it; the organization's base permission is read.
+  Each project repository's team has write access to it; the organization's base permission is read.
+  This `.github` repository has no team: its files apply to every repository, so only the maintainer changes them, through pull requests.
 - A ruleset protects each repository's `main` branch.
   Each repository's `CONTRIBUTING.md` lists its rules.
 - Two-factor authentication is required for every member.
