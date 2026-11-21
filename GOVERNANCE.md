@@ -39,6 +39,8 @@ The FoxieOS projects will have several maintainers, not one.
   Anyone can comment on the issue.
   The maintainer decides, then records the decision and its date in the roadmap through a pull request that closes the issue.
 - **Changes** follow the repository's `CONTRIBUTING.md`: every change is reviewed by someone other than its author, and some areas need a person's review.
+- **Discussion on Discord** doesn't decide anything by itself.
+  An argument or an agreement counts once someone writes it in the issue or pull request concerned.
 - **Disagreements** are argued in the issue or pull request, with sources.
   If they don't settle, the maintainer decides and says why.
 
@@ -52,6 +54,10 @@ The FoxieOS projects will have several maintainers, not one.
 - A ruleset protects each repository's `main` branch.
   Each repository's `CONTRIBUTING.md` lists its rules.
 - Two-factor authentication is required for every member.
+- The Alopex Discord belongs to the student organization, and its owner runs it, not the maintainer.
+  The code of conduct applies to FoxieOS discussion there, and reports go to the maintainer; who moderates the server under it is not settled yet.
+  The server's owner grants Manage Webhooks on the channels GitHub posts to.
+  The maintainer sets the GitHub webhooks and the repositories' Discord webhook secrets, which are never committed, since anyone with a webhook URL can post to its channel.
 
 ## Continuity
 
