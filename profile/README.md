@@ -12,6 +12,7 @@ The members choose the projects' maintainers at a founding meeting on 2026-11-24
 | [foxieos-hardware](https://github.com/alopex-org/foxieos-hardware) | Research into building a device, separate from the operating system |
 
 Start with a repository's README and its `docs/ROADMAP.md`.
+Ask questions on the [Alopex Discord](https://discord.gg/REPLACE_WITH_INVITE); issues and pull requests remain the record.
 Contributions follow each repository's `CONTRIBUTING.md`, the [code of conduct](https://github.com/alopex-org/.github/blob/main/CODE_OF_CONDUCT.md) and the [governance](https://github.com/alopex-org/.github/blob/main/GOVERNANCE.md).
 
 Android is a trademark of Google LLC.
