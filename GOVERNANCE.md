@@ -11,6 +11,8 @@ The FoxieOS projects will have several maintainers, not one.
   The maintainers then decide the projects' foundations together: what each project is for, whether the hardware project aims at a product, and how they take decisions among themselves.
 - Until then, the organization's owner acts as the only, interim maintainer.
   The interim maintainer sets up the organization and the repositories' tooling, and takes no foundational decision alone.
+- Until then, only the interim maintainer's approval lets a pull request merge: each repository's `.github/CODEOWNERS` makes them a code owner of every file.
+  Members still review each other's changes and the maintainer's own; the maintainers decide at the meeting who approves changes after that.
 - Everything the repositories mark as decided before the meeting was decided by the interim maintainer alone.
   It counts as a proposal until the maintainers confirm or change it.
 - After the meeting, a pull request records who the maintainers are, updates this document, and adds them as code owners.
