@@ -8,7 +8,7 @@ It uses the other files here for every repository in the organization that has n
 ## Files
 
 - [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md): the code of conduct, the Contributor Covenant 3.0 with FoxieOS's reporting route.
-- [GOVERNANCE.md](GOVERNANCE.md): roles, how decisions are made, access, and how a second owner is added.
+- [GOVERNANCE.md](GOVERNANCE.md): the founding maintainers, roles, how decisions are made, access, and how a further owner is added.
 - [SUPPORT.md](SUPPORT.md): where to ask for help.
 - [profile/README.md](profile/README.md): the organization's public profile.
 

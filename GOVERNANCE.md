@@ -3,9 +3,23 @@
 Who decides what in the FoxieOS projects, and how that changes.
 It applies to every repository in the [`alopex-org`](https://github.com/alopex-org) organization, unless a repository's own docs say otherwise.
 
+## Founding maintainers
+
+The FoxieOS projects will have several maintainers, not one.
+
+- The members meet on Tuesday 2026-11-24 to choose the maintainers.
+  The maintainers then decide the projects' foundations together: what each project is for, whether the hardware project aims at a product, and how they take decisions among themselves.
+- Until then, the organization's owner acts as the only, interim maintainer.
+  The interim maintainer sets up the organization and the repositories' tooling, and takes no foundational decision alone.
+- Everything the repositories mark as decided before the meeting was decided by the interim maintainer alone.
+  It counts as a proposal until the maintainers confirm or change it.
+- After the meeting, a pull request records who the maintainers are, updates this document, and adds them as code owners.
+  Until it merges, "the maintainer" in this document and in the repositories means the interim maintainer.
+- A maintainer approves pull requests from a GitHub account that is a member of the organization, with two-factor authentication on.
+
 ## Roles
 
-- **The maintainer** owns the organization.
+- **The maintainer** owns the organization; [Founding maintainers](#founding-maintainers) explains how this becomes several maintainers.
   The maintainer takes the decisions in each repository's roadmap, approves changes to code-owned paths, handles security and code-of-conduct reports, and is the only person who handles release keys and publishes releases.
 - **Members** belong to the `alopex` team, which covers every FoxieOS project.
   They push branches to the project repositories, open pull requests, review each other's changes and take part in the discussion of every decision.
@@ -36,13 +50,14 @@ It applies to every repository in the [`alopex-org`](https://github.com/alopex-o
 
 ## Continuity
 
-The organization has one owner.
-The maintainer adds a second owner when they judge a member ready.
+The organization has one owner for now.
+The founding meeting decides which maintainers become owners too.
+After it, a further owner is added when a member is ready.
 That member:
 
 - has contributed to and reviewed the projects;
 - agrees to this document and to the key rules in the repositories' `AGENTS.md` and `docs/RELEASING.md`;
-- is proposed by the maintainer in an issue in this repository, and accepts there.
+- is proposed by a maintainer in an issue in this repository, and accepts there.
 
 Owning the organization doesn't give access to release keys.
 Release keys stay with the maintainer on the signing host, as each repository's release docs describe.
