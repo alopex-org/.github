@@ -16,6 +16,11 @@ Never copy anything from them into a commit, pull request or issue.
    That includes pushing to any remote, changing organization settings and posting anything.
 4. **Keep private details out of the repository.**
    Describe machines by their role, never by name, address, hardware inventory or local path.
+5. **Write for members who aren't technical.**
+   Lead with what a page means for the project in plain words, and explain GitHub and process terms in [GLOSSARY.md](GLOSSARY.md), adding new ones there.
+   Keep instructions addressed to coding agents in this file; the people docs mention agents only to say that the person who directs an agent is responsible for its work.
+6. **The Discord server has no public invite.**
+   Don't add an invite link to any file.
 
 ## Commands
 

@@ -1,31 +1,32 @@
 # alopex-org/.github
 
-The FoxieOS organization's profile and its shared community files.
+This repository holds the files that every FoxieOS repository shares: the organization's public profile, the code of conduct, the governance rules and where to get help.
 
 GitHub shows `profile/README.md` on the [organization's page](https://github.com/alopex-org).
-It uses the other files here for every repository in the organization that has no file of the same name ([GitHub Docs][default-files]).
+When a FoxieOS repository has no code of conduct, governance or support file of its own, GitHub shows the one from here instead ([GitHub Docs][default-files]).
 
 ## Files
 
-- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md): the code of conduct, the Contributor Covenant 3.0 with FoxieOS's reporting route.
-- [GOVERNANCE.md](GOVERNANCE.md): the founding maintainers, roles, how decisions are made, access, and how a further owner is added.
-- [SUPPORT.md](SUPPORT.md): where to ask for help.
-- [profile/README.md](profile/README.md): the organization's public profile.
+- [GOVERNANCE.md](GOVERNANCE.md): who decides what, who can change what, and how that changes after the founding meeting.
+- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md): how we treat each other, and how to report a problem privately.
+- [SUPPORT.md](SUPPORT.md): where to ask a question or report something.
+- [GLOSSARY.md](GLOSSARY.md): plain explanations of the GitHub words the docs use, such as branch, pull request and sign-off.
+- [profile/README.md](profile/README.md): the short introduction on the organization's page.
 
-Each repository keeps its own `CONTRIBUTING.md`, `SECURITY.md`, issue forms and pull-request template, because those differ between projects.
-GitHub uses a repository's own file in place of the shared one.
+Each project repository keeps its own `CONTRIBUTING.md`, `SECURITY.md`, issue forms and pull-request template, because those differ between projects.
+A repository's own file always wins over the shared one.
 
-## Contributing
+## Suggesting a change
 
-Changes here apply to every repository, so the maintainer reviews each one ([.github/CODEOWNERS](.github/CODEOWNERS)).
-The rules are those of [foxieos's CONTRIBUTING.md](https://github.com/alopex-org/foxieos/blob/main/CONTRIBUTING.md): a branch per change, `scope: description` commits with a DCO sign-off, and one sentence per line.
-Run `pre-commit install` in your clone first.
+A change here affects every FoxieOS repository, so the maintainer reviews each one ([.github/CODEOWNERS](.github/CODEOWNERS)).
+The rules for changes are the same as in [foxieos's CONTRIBUTING.md](https://github.com/alopex-org/foxieos/blob/main/CONTRIBUTING.md): a new branch for each change, a signed-off commit with a short `scope: description` subject, and one sentence per line.
+Run `pre-commit install` in your clone first, so the checks run before each commit.
 AI coding agents also follow [AGENTS.md](AGENTS.md).
 
 ## License
 
-Apache License 2.0; see [LICENSE](LICENSE), except for `CODE_OF_CONDUCT.md`.
-`CODE_OF_CONDUCT.md` is adapted from the [Contributor Covenant][covenant] 3.0 and is under the Creative Commons Attribution-ShareAlike 4.0 licence, as its attribution section says.
+The files are under the Apache License 2.0 ([LICENSE](LICENSE)), except `CODE_OF_CONDUCT.md`.
+`CODE_OF_CONDUCT.md` is adapted from the [Contributor Covenant][covenant] 3.0, and stays under its Creative Commons Attribution-ShareAlike 4.0 licence, as its attribution section says.
 
 Android is a trademark of Google LLC.
 FoxieOS is not affiliated with Google or the LineageOS project.
