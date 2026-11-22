@@ -11,7 +11,7 @@ The maintainers then decide the projects' foundations together, including what F
 | Repository | What it is |
 |---|---|
 | [foxieos](https://github.com/alopex-org/foxieos) | The operating system: its plan, and later the scripts that build, test and release it |
-| [foxieos-hardware](https://github.com/alopex-org/foxieos-hardware) | Research into building a device, separate from the operating system |
+| [alopex](https://github.com/alopex-org/alopex) | Alopex, the hardware project: research into building a device, separate from the operating system |
 
 Start with a repository's README, then its `docs/ROADMAP.md`.
 Unfamiliar words are explained in the [glossary](https://github.com/alopex-org/.github/blob/main/GLOSSARY.md).

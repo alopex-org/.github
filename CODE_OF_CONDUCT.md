@@ -56,7 +56,7 @@ When an incident does occur, it is important to report it promptly. To report a 
 **How to report in FoxieOS:**
 
 - FoxieOS has no contact address for reports yet (FoxieOS roadmap decision D8, the security contact).
-  Until it has one, use GitHub's [private reporting form](https://github.com/alopex-org/foxieos/security/advisories/new): in any FoxieOS repository, open the Security tab, then "Report a vulnerability".
+  Until it has one, use GitHub's [private reporting form](https://github.com/alopex-org/foxieos/security/advisories/new): in any repository in the organization, open the Security tab, then "Report a vulnerability".
 - Start the title with "Code of conduct:".
   The form is meant for security problems, but only the maintainer can read what is sent through it.
 - Don't report a code-of-conduct problem in a public issue.

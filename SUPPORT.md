@@ -8,7 +8,7 @@ Here is where to go for what.
   It has no public invite for now; ask a member for one.
   Discord is for conversation, not for keeping a record.
   Anything that should be kept, such as a bug, a correction or an argument for a decision, goes in an issue or a pull request.
-- **To ask about the plan or the research:** open an issue in the repository it's about, [foxieos](https://github.com/alopex-org/foxieos/issues) or [foxieos-hardware](https://github.com/alopex-org/foxieos-hardware/issues).
+- **To ask about the plan or the research:** open an issue in the repository it's about, [foxieos](https://github.com/alopex-org/foxieos/issues) or [alopex](https://github.com/alopex-org/alopex/issues) for Alopex, the hardware project.
 - **To fix something wrong or out of date in the docs:** open an issue with a source that shows the correct information, or open a pull request.
 - **To report a security problem:** follow the repository's `SECURITY.md`.
   Never post it in a public issue or on Discord.
