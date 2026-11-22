@@ -13,6 +13,9 @@ The FoxieOS projects will have several maintainers, not one.
   The interim maintainer sets up the organization and the repositories' tooling, and takes no foundational decision alone.
 - Until then, only the interim maintainer's approval lets a pull request merge: each repository's `.github/CODEOWNERS` makes them a code owner of every file.
   Members still review each other's changes and the maintainer's own; the maintainers decide at the meeting who approves changes after that.
+- Until then, members have read access to every repository, like everyone else.
+  They push branches to their own forks, and only the interim maintainer pushes to the organization's repositories, merges, and labels, assigns or closes other people's issues.
+  The maintainers decide at the meeting what access members get after that.
 - Everything the repositories mark as decided before the meeting was decided by the interim maintainer alone.
   It counts as a proposal until the maintainers confirm or change it.
 - After the meeting, a pull request records who the maintainers are, updates this document, and adds them as code owners.
@@ -24,7 +27,7 @@ The FoxieOS projects will have several maintainers, not one.
 - **The maintainer** owns the organization; [Founding maintainers](#founding-maintainers) explains how this becomes several maintainers.
   The maintainer takes the decisions in each repository's roadmap, approves changes to code-owned paths, handles security and code-of-conduct reports, and is the only person who handles release keys and publishes releases.
 - **Members** belong to the `alopex` team, which covers every FoxieOS project.
-  They push branches to the project repositories, open pull requests, review each other's changes and take part in the discussion of every decision.
+  They open pull requests, review each other's changes and take part in the discussion of every decision.
 - **Contributors** are everyone else.
   They open issues, and pull requests from their own forks.
 - **Coding agents** work under a person's direction and follow the repository's `AGENTS.md`.
@@ -42,7 +45,7 @@ The FoxieOS projects will have several maintainers, not one.
 ## Access
 
 - Members get access to a repository through a team, never one by one; the organization's base permission is read.
-- The `alopex` team has write access to every project repository, and every member belongs to it.
+- The `alopex` team has read access to every project repository until the founding meeting, and every member belongs to it.
 - The `foxieos` and `foxieos-hardware` teams each have write access to their own repository, and are reserved for roles in that project.
   They stay empty, apart from the maintainer, until the roles are decided and assigned.
 - This `.github` repository has no team: its files apply to every repository, so only the maintainer changes them, through pull requests.
