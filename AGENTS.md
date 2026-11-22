@@ -1,7 +1,7 @@
 # Instructions for coding agents
 
 This file is for AI coding agents working in this repository.
-It holds the organization's profile and shared community files ([README.md](README.md)), which apply to every FoxieOS repository.
+It holds the organization's profile and shared community files ([README.md](README.md)), which apply to every repository in the organization (`foxieos`, `alopex` and `.github`).
 
 If an `AGENTS.local.md` file exists next to this one, read it too.
 Files named `*.local.md` are git-ignored and hold notes for one contributor's setup.

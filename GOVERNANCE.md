@@ -17,7 +17,7 @@ The FoxieOS projects will have several maintainers, not one.
 
 - **The meeting.**
   The members meet on Tuesday 2026-11-24 to choose the maintainers.
-  The maintainers then decide the projects' foundations together: what each project is for, whether the hardware project aims to become a product, and how they take decisions among themselves.
+  The maintainers then decide the projects' foundations together: what each project is for, whether the hardware project, Alopex, aims to become a product, and how they take decisions among themselves.
 - **Until then, one interim maintainer.**
   The organization's owner acts as the only maintainer for now.
   They set up the organization and the repositories' tools, and take no foundational decision alone.
@@ -47,7 +47,7 @@ The FoxieOS projects will have several maintainers, not one.
   - approves changes to the files they own as code owner;
   - handles security and code-of-conduct reports;
   - is the only person who handles release keys and publishes releases.
-- **Members** belong to the `alopex` team, which covers every FoxieOS project.
+- **Members** belong to the `alopex` team, which covers every project in the organization.
   They open pull requests, review each other's changes and take part in the discussion of every decision.
 - **Contributors** are everyone else.
   They open issues, and open pull requests from their own forks.
@@ -77,7 +77,7 @@ The FoxieOS projects will have several maintainers, not one.
   Every member belongs to it.
   Until the founding meeting it has read access to every project repository.
 - **Project teams.**
-  The `foxieos` and `foxieos-hardware` teams each have write access to their own repository, and are kept for roles in that project.
+  The `foxieos` and `foxieos-hardware` teams each have write access to their own repository (`foxieos-hardware` to `alopex`), and are kept for roles in that project.
   They stay empty, apart from the maintainer, until the roles are decided and assigned.
 - **This `.github` repository** has no team.
   Its files apply to every repository, so only the maintainer changes them, through pull requests.

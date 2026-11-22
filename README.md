@@ -1,9 +1,9 @@
 # alopex-org/.github
 
-This repository holds the files that every FoxieOS repository shares: the organization's public profile, the code of conduct, the governance rules and where to get help.
+This repository holds the files that every repository in the organization shares: the organization's public profile, the code of conduct, the governance rules and where to get help.
 
 GitHub shows `profile/README.md` on the [organization's page](https://github.com/alopex-org).
-When a FoxieOS repository has no code of conduct, governance or support file of its own, GitHub shows the one from here instead ([GitHub Docs][default-files]).
+When a repository in the organization has no code of conduct, governance or support file of its own, GitHub shows the one from here instead ([GitHub Docs][default-files]).
 
 ## Files
 
@@ -18,7 +18,7 @@ A repository's own file always wins over the shared one.
 
 ## Suggesting a change
 
-A change here affects every FoxieOS repository, so the maintainer reviews each one ([.github/CODEOWNERS](.github/CODEOWNERS)).
+A change here affects every repository in the organization, so the maintainer reviews each one ([.github/CODEOWNERS](.github/CODEOWNERS)).
 The rules for changes are the same as in [foxieos's CONTRIBUTING.md](https://github.com/alopex-org/foxieos/blob/main/CONTRIBUTING.md): a new branch for each change, a signed-off commit with a short `scope: description` subject, and one sentence per line.
 Run `pre-commit install` in your clone first, so the checks run before each commit.
 AI coding agents also follow [AGENTS.md](AGENTS.md).

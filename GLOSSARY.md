@@ -4,9 +4,13 @@ Plain explanations of the words the FoxieOS docs use for GitHub and for the way 
 You don't need to know any of this before you start; look a word up when you meet it.
 
 Words about Android and phones are in [foxieos's glossary](https://github.com/alopex-org/foxieos/blob/main/docs/GLOSSARY.md).
-Words about hardware and radios are in [foxieos-hardware's glossary](https://github.com/alopex-org/foxieos-hardware/blob/main/docs/GLOSSARY.md).
+Words about hardware and radios are in [Alopex's glossary](https://github.com/alopex-org/alopex/blob/main/docs/GLOSSARY.md).
 
 ## People and roles
+
+- **Alopex:** two things share this name.
+  The Alopex student organization runs the projects, the `alopex` team on GitHub and the Alopex Discord.
+  Alopex is also the name of the hardware project, whose repository is `alopex` (called `foxieos-hardware` until 2026-11-23).
 
 - **Maintainer:** a person who decides for a project and approves changes to it.
   Until the founding meeting on 2026-11-24, the organization's owner is the only, interim maintainer ([governance](GOVERNANCE.md#founding-maintainers)).
@@ -21,9 +25,9 @@ Words about hardware and radios are in [foxieos-hardware's glossary](https://git
 
 ## Where the work lives
 
-- **Organization:** the shared GitHub account that holds all the FoxieOS repositories, [`alopex-org`](https://github.com/alopex-org).
+- **Organization:** the shared GitHub account that holds all the projects' repositories, [`alopex-org`](https://github.com/alopex-org).
 - **Repository (repo):** one project's folder of files, with the full history of every change.
-  FoxieOS has `foxieos` (the operating system), `foxieos-hardware` (the device research) and `.github` (shared files like this one).
+  The organization has `foxieos` (the operating system), `alopex` (Alopex, the hardware project) and `.github` (shared files like this one).
 - **`main`:** the repository's official version.
   Changes reach it only through a pull request.
 - **Markdown (`.md`):** the plain-text format these docs are written in.
@@ -49,7 +53,7 @@ Words about hardware and radios are in [foxieos-hardware's glossary](https://git
 - **Review:** reading someone else's pull request and commenting on it.
   An **approval** is a review that says the change is ready.
 - **Merge:** bringing an approved pull request into `main`.
-  The FoxieOS repositories merge by **rebasing**: each commit is placed on top of `main` as it was written, so the history stays one straight line.
+  The repositories merge by **rebasing**: each commit is placed on top of `main` as it was written, so the history stays one straight line.
 - **Tag:** a fixed name for one point in the history, used to mark a release.
 
 ## Rules the repositories enforce
