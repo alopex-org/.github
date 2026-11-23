@@ -2,7 +2,7 @@
 
 The Alopex student organization is working toward a cyber-deck: a portable computer of its own.
 Alopex, the hardware project, works on the device; FoxieOS, the operating-system project, on the software it runs.
-What the cyber-deck has, what it is built from and what software it runs are all undecided.
+Apart from a built-in LoRa mesh radio, for messaging without a mobile network, what the cyber-deck has, what it is built from and what software it runs are all undecided.
 
 **Status: planning.**
 Nothing is built or released yet.
