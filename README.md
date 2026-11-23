@@ -28,8 +28,8 @@ AI coding agents also follow [AGENTS.md](AGENTS.md).
 The files are under the Apache License 2.0 ([LICENSE](LICENSE)), except `CODE_OF_CONDUCT.md`.
 `CODE_OF_CONDUCT.md` is adapted from the [Contributor Covenant][covenant] 3.0, and stays under its Creative Commons Attribution-ShareAlike 4.0 licence, as its attribution section says.
 
-Android is a trademark of Google LLC.
-FoxieOS is not affiliated with Google or the LineageOS project.
+Raspberry Pi is a trademark of Raspberry Pi Ltd.
+The projects are not affiliated with Raspberry Pi Ltd or the Meshtastic project.
 
 [default-files]: https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file
 [covenant]: https://www.contributor-covenant.org/version/3/0/

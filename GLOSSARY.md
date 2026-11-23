@@ -3,8 +3,8 @@
 Plain explanations of the words the FoxieOS docs use for GitHub and for the way the projects work.
 You don't need to know any of this before you start; look a word up when you meet it.
 
-Words about Android and phones are in [foxieos's glossary](https://github.com/alopex-org/foxieos/blob/main/docs/GLOSSARY.md).
-Words about hardware and radios are in [Alopex's glossary](https://github.com/alopex-org/alopex/blob/main/docs/GLOSSARY.md).
+Words about Linux and the cyber-deck's software are in [foxieos's glossary](https://github.com/alopex-org/foxieos/blob/main/docs/GLOSSARY.md).
+Words about the cyber-deck's hardware and radios are in [Alopex's glossary](https://github.com/alopex-org/alopex/blob/main/docs/GLOSSARY.md).
 
 ## People and roles
 
