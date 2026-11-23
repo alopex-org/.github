@@ -1,7 +1,8 @@
 # FoxieOS and Alopex
 
-The Alopex student organization is building a cyber-deck: a rugged, hand-held computer with a slide-out keyboard and a LoRa radio for messaging without a mobile network.
-Alopex, the hardware project, designs the device; FoxieOS is the Linux system planned to run on it.
+The Alopex student organization is working toward a cyber-deck: a portable computer of its own.
+Alopex, the hardware project, works on the device; FoxieOS, the operating-system project, on the software it runs.
+What the cyber-deck has, what it is built from and what software it runs are all undecided.
 
 **Status: planning.**
 Nothing is built or released yet.
@@ -11,7 +12,7 @@ The maintainers then decide the projects' foundations together ([governance](htt
 
 | Repository | What it is |
 |---|---|
-| [alopex](https://github.com/alopex-org/alopex) | Alopex, the hardware project: the cyber-deck's design, and the research behind it |
+| [alopex](https://github.com/alopex-org/alopex) | Alopex, the hardware project: the cyber-deck's plan, and the research behind it |
 | [foxieos](https://github.com/alopex-org/foxieos) | FoxieOS, the operating system: its plan, and later the scripts that build, test and release it |
 
 Start with a repository's README, then its `docs/ROADMAP.md`.
@@ -21,5 +22,4 @@ Members talk the work over on the Alopex Discord, which has no public invite for
 Anything that should be kept goes in an issue or a pull request.
 Changes follow each repository's `CONTRIBUTING.md`, the [code of conduct](https://github.com/alopex-org/.github/blob/main/CODE_OF_CONDUCT.md) and the [governance](https://github.com/alopex-org/.github/blob/main/GOVERNANCE.md).
 
-Raspberry Pi is a trademark of Raspberry Pi Ltd.
-The projects are not affiliated with Raspberry Pi Ltd or the Meshtastic project.
+The projects are not affiliated with any company or project named in their documents.
