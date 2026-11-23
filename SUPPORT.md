@@ -16,4 +16,4 @@ Here is where to go for what.
 
 If a word in the docs is unfamiliar, look it up in the [glossary](GLOSSARY.md).
 
-FoxieOS and Alopex are not affiliated with Raspberry Pi Ltd or the Meshtastic project, so don't ask them for help with the cyber-deck or FoxieOS.
+FoxieOS and Alopex are not affiliated with any company or project named in their documents, so don't ask those for help with the cyber-deck or FoxieOS.
