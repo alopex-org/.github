@@ -17,7 +17,7 @@ The FoxieOS projects will have several maintainers, not one.
 
 - **The meeting.**
   The members meet on Tuesday 2026-11-24 to choose the maintainers.
-  The maintainers then decide the projects' foundations together: what each project is for, including the proposed move from an Android phone to a cyber-deck, whether the hardware project, Alopex, aims to become a product, and how they take decisions among themselves.
+  The maintainers then decide the projects' foundations together: what each project is for, including the proposed move from an Android phone to a user-serviceable cyber-deck running Linux, whether the hardware project, Alopex, aims to become a product, and how they take decisions among themselves.
 - **Until then, one interim maintainer.**
   The organization's owner acts as the only maintainer for now.
   They set up the organization and the repositories' tools, and take no foundational decision alone.
