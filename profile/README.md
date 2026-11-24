@@ -6,9 +6,8 @@ Its main board, its other parts and which distribution it runs are undecided.
 
 **Status: planning.**
 Nothing is built or released yet.
-The projects started out as a version of Android for phones and the hardware for it; the move to a cyber-deck is proposed for the maintainers to confirm.
-The members choose the projects' maintainers at a founding meeting on 2026-11-24.
-The maintainers then decide the projects' foundations together ([governance](https://github.com/alopex-org/.github/blob/main/GOVERNANCE.md#founding-maintainers)).
+The projects started out as a version of Android for phones and the hardware for it.
+At their founding meeting on 2026-11-24, the members confirmed the move to a cyber-deck running a Linux distribution, and chose the projects' maintainer ([governance](https://github.com/alopex-org/.github/blob/main/GOVERNANCE.md#the-founding-meeting)).
 
 | Repository | What it is |
 |---|---|

@@ -7,7 +7,7 @@ When a repository in the organization has no code of conduct, governance or supp
 
 ## Files
 
-- [GOVERNANCE.md](GOVERNANCE.md): who decides what, who can change what, and how that changes after the founding meeting.
+- [GOVERNANCE.md](GOVERNANCE.md): who decides what, who can change what, and what the founding meeting decided.
 - [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md): how we treat each other, and how to report a problem privately.
 - [SUPPORT.md](SUPPORT.md): where to ask a question or report something.
 - [GLOSSARY.md](GLOSSARY.md): plain explanations of the GitHub words the docs use, such as branch, pull request and sign-off.
