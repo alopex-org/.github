@@ -13,7 +13,7 @@ Words about the cyber-deck's hardware are in [Alopex's glossary](https://github.
   Alopex is also the name of the hardware project, whose repository is `alopex` (called `foxieos-hardware` until 2026-11-23).
 
 - **Maintainer:** a person who decides for a project and approves changes to it.
-  Until the founding meeting on 2026-11-24, the organization's owner is the only, interim maintainer ([governance](GOVERNANCE.md#founding-maintainers)).
+  The maintainers decide by majority vote; for now there is one, the organization's owner ([governance](GOVERNANCE.md#the-founding-meeting)).
 - **Member:** someone in the organization's `alopex` team.
   Members suggest changes, review each other's work and take part in every decision.
 - **Contributor:** anyone else who suggests a change or reports a problem.
@@ -38,7 +38,7 @@ Words about the cyber-deck's hardware are in [Alopex's glossary](https://github.
 
 - **Clone:** a copy of a repository on your own computer.
 - **Fork:** your own copy of a repository on GitHub.
-  Until the founding meeting, members put their changes in their fork and suggest them from there.
+  Members put their changes in their fork and suggest them from there.
 - **Branch:** a separate line of work inside a repository, so a change can be prepared without touching `main`.
   Each change gets a new branch with a name that says what it does, such as `docs/glossary`.
 - **Commit:** one saved step of a change, with a message that says what changed and why.
