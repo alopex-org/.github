@@ -87,7 +87,7 @@ This section records what the meeting decided.
   Every member belongs to it.
   It has read access to every project repository, as the founding meeting decided.
 - **Project teams.**
-  The `foxieos` and `foxieos-hardware` teams each have write access to their own repository (`foxieos-hardware` to `alopex`), and are kept for roles in that project.
+  The `foxieos` and `alopex-hardware` teams each have write access to their own repository (`alopex-hardware` to `alopex`), and are kept for roles in that project.
   They stay empty, apart from the maintainers, until the roles are decided and assigned.
 - **This `.github` repository** has no team.
   Its files apply to every repository, so only the maintainers change them, through pull requests.
