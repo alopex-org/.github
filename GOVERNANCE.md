@@ -89,6 +89,7 @@ This stays so until the maintainers decide how to share these tasks, for example
   For now the organization's owner does some of these alone ([What the owner covers for now](#what-the-owner-covers-for-now)).
 - **Members** belong to the `alopex` team, which covers every project in the organization.
   They open pull requests, review each other's changes and take part in the discussion of every decision.
+  How they do this is in the [member guide](MEMBERS.md).
 - **Contributors** are everyone else.
   They open issues, and open pull requests from their own forks.
 - **Coding agents** are AI tools that a person directs.
