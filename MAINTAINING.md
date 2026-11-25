@@ -10,9 +10,10 @@ Members have their own [member guide](MEMBERS.md).
 ## In short
 
 - You approve and merge pull requests, and you look after issues, in `foxieos` and `alopex`.
-- Someone other than the author approves every pull request, so you can't approve your own; ask another maintainer.
+- Only maintainers approve pull requests, and never their own; ask another maintainer to approve yours.
 - A person, not a coding agent, reads every change to the roadmap, the design and the other sensitive areas each `CONTRIBUTING.md` lists.
 - Pull requests merge by rebasing, once the DCO check passes and every comment thread is resolved.
+- When the maintainers disagree, the organization's owner decides who settles it.
 - A decision counts once it is written in its issue and in the roadmap, not when it is agreed on Discord.
 - Some tasks need more access than you have, so the organization's owner does them for now ([What only the owner can do](#what-only-the-owner-can-do-for-now)).
 
@@ -48,7 +49,7 @@ If a task needs one of these, ask the owner in the issue or pull request.
 ## Reviewing a pull request
 
 GitHub asks the maintainers for a review on every pull request, because `.github/CODEOWNERS` names them as owners of every file.
-One maintainer's approval is enough to merge ([GOVERNANCE.md](GOVERNANCE.md#the-founding-meeting)).
+One maintainer's approval is enough to merge, from a maintainer other than the author ([GOVERNANCE.md](GOVERNANCE.md#how-decisions-are-made)).
 
 Check these before you approve:
 
@@ -80,10 +81,10 @@ Then choose:
 - **Request changes** when something must change first, and say what.
 - **Comment** for questions and suggestions that don't block the merge.
 
-Members' reviews don't count toward merging, but answer their comments before merging, as `CONTRIBUTING.md` asks.
+Only maintainers approve pull requests, so members' reviews don't count toward merging; answer their comments before merging, as `CONTRIBUTING.md` asks.
 
-**Your own pull requests** need another maintainer's approval.
-The owner can override this on a pull request that no other code owner can approve, once another member has approved it; GitHub records every override.
+**Your own pull requests** need another maintainer's approval; never approve or merge your own without one.
+For now no other maintainer can approve the owner's own pull requests in this `.github` repository, because only the owner approves here ([What only the owner can do](#what-only-the-owner-can-do-for-now)).
 
 ## Merging
 
@@ -118,8 +119,8 @@ The maintainers take the decisions listed in each repository's roadmap ([GOVERNA
 
 1. The discussion happens in the decision's issue, where anyone can comment.
    Arguments made on Discord count once someone writes them there.
-2. The maintainers decide by majority vote.
-   If the vote is tied, the members decide by majority vote.
+2. The maintainers decide together, and each writes their view in the issue.
+   When they disagree, the organization's owner decides who settles it: a vote of the whole organization, of the team it concerns, or another way, and says which in the issue.
    Write each vote, or a link to it, in the issue, so the record stays with the decision.
 3. A pull request records the decision and its date in `docs/ROADMAP.md`, and in `docs/DESIGN.md` if it changes the design.
    It closes the decision's issue.
@@ -143,6 +144,7 @@ Never put a release key, or anything copied from one, in a repository, an issue 
 
 ## Not settled yet
 
+- How the owner's own pull requests to this `.github` repository get another maintainer's approval.
 - How the tasks in [What only the owner can do](#what-only-the-owner-can-do-for-now) are shared among the maintainers, for example through a team for the maintainers or another owner.
 - Who moderates the Alopex Discord under the code of conduct.
 - A contact address for security reports (FoxieOS roadmap decision D8, the security contact).
