@@ -13,7 +13,7 @@ Words about the cyber-deck's hardware are in [Alopex's glossary](https://github.
   Alopex is also the name of the hardware project, whose repository is `alopex` (called `foxieos-hardware` until 2026-11-23).
 
 - **Maintainer:** a person who decides for a project and approves changes to it.
-  The maintainers decide by majority vote ([governance](GOVERNANCE.md#maintainers)); the [maintainer guide](MAINTAINING.md) says how they do their everyday work.
+  Only maintainers approve pull requests, never their own ([governance](GOVERNANCE.md#how-decisions-are-made)); the [maintainer guide](MAINTAINING.md) says how they do their everyday work.
 - **Member:** someone in the organization's `alopex` team.
   Members suggest changes, review each other's work and take part in every decision ([member guide](MEMBERS.md)).
 - **Contributor:** anyone else who suggests a change or reports a problem.
@@ -51,7 +51,7 @@ Words about the cyber-deck's hardware are in [Alopex's glossary](https://github.
 - **Pull request (PR):** a request to bring the changes on a branch into `main`.
   It shows the changes and holds the discussion and the review.
 - **Review:** reading someone else's pull request and commenting on it.
-  An **approval** is a review that says the change is ready.
+  An **approval** is a review that says the change is ready; only a maintainer other than the author can give one that counts.
 - **Merge:** bringing an approved pull request into `main`.
   The repositories merge by **rebasing**: each commit is placed on top of `main` as it was written, so the history stays one straight line.
 - **Tag:** a fixed name for one point in the history, used to mark a release.

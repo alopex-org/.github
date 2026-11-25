@@ -8,8 +8,8 @@ GitHub words such as pull request, code owner and ruleset are explained in the [
 
 - The members held their founding meeting on 2026-11-24.
 - The projects have three maintainers: the organization's owner, who was the only one after the meeting, and two more appointed by them on 2026-11-26 ([Maintainers](#maintainers)).
-- The maintainers decide by majority vote; if a vote is tied, the members decide by majority vote.
-- One maintainer's approval lets a pull request merge.
+- The maintainers decide together; when they disagree, the organization's owner decides who settles it: the whole organization, the team it concerns, or another way ([How decisions are made](#how-decisions-are-made)).
+- Only maintainers approve pull requests, never their own; one maintainer's approval lets a pull request merge.
 - Members keep read access and work from their own forks.
 
 ## The founding meeting
@@ -26,8 +26,10 @@ This section records what the meeting decided.
 - **How the maintainers decide.**
   By majority vote.
   If a vote is tied, the members decide by majority vote.
+  Changed on 2026-11-26: when the maintainers disagree, the organization's owner decides who settles it ([How decisions are made](#how-decisions-are-made)).
 - **Merging.**
   One maintainer's approval lets a pull request merge.
+  Since 2026-11-26, only a maintainer other than the pull request's author can give that approval.
   Each repository's `.github/CODEOWNERS` file names the maintainers as owners of every file, so GitHub needs a maintainer's approval before a pull request can merge.
   Members still review each other's changes and the maintainers' own.
 - **Members' access.**
@@ -72,6 +74,7 @@ Some maintainer tasks need more access on GitHub than that, so for now the organ
   Both arrive through GitHub's private reporting form, and only the organization's owner sees what is sent there.
 - **This `.github` repository.**
   No team gives the maintainers write access here, so only the organization's owner approves its pull requests.
+  Because nobody approves their own pull request, no one can approve the owner's own pull requests here until the other maintainers have write access.
 - **Tags and releases, overriding the rules on `main`, and repository secrets.**
   These need GitHub's admin role, which only the organization's owner has.
 
@@ -82,7 +85,7 @@ This stays so until the maintainers decide how to share these tasks, for example
 - **The maintainers** are listed under [Maintainers](#maintainers); one of them also owns the organization.
   The maintainers:
   - take the decisions listed in each repository's roadmap;
-  - approve changes to the files they own as code owners;
+  - approve changes to the files they own as code owners, but never their own pull requests;
   - handle security and code-of-conduct reports;
   - are the only people who handle release keys and publish releases.
 
@@ -101,14 +104,16 @@ This stays so until the maintainers decide how to share these tasks, for example
 - **Roadmap decisions** have short codes (D1, D2, …).
   Each one has a section in the repository's `docs/ROADMAP.md` and an issue of type Decision.
   Anyone can comment on the issue.
-  The maintainers decide by majority vote, and the members break a tie by majority vote.
+  The maintainers decide together.
+  When they disagree, the organization's owner decides who settles the question: a vote of the whole organization, of the team it concerns, or another way, and says which in the issue.
   The decision and its date go into the roadmap, in a pull request that closes the issue.
 - **Changes** follow the repository's `CONTRIBUTING.md`.
   Someone other than the author reviews every change, and some areas need a review by a person rather than by a coding agent.
+  Only a maintainer approves a pull request, and never their own.
 - **Discord** doesn't decide anything by itself.
   An argument or an agreement counts once someone writes it in the issue or pull request it concerns.
 - **Disagreements** are argued in the issue or pull request, with sources.
-  If they don't settle, the maintainers decide by vote and say why.
+  If they don't settle, the maintainers decide and say why; if the maintainers disagree, the organization's owner decides who settles it, as for roadmap decisions.
 
 ## Access
 
@@ -151,4 +156,4 @@ Release keys stay with the maintainers on the signing computer, as each reposito
 ## Changing this page
 
 Suggest a change in a pull request to this repository.
-A maintainer approves it.
+A maintainer other than its author approves it.

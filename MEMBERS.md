@@ -22,7 +22,7 @@ As the founding meeting decided ([GOVERNANCE.md](GOVERNANCE.md#the-founding-meet
 - **You can:** open issues and pull requests, review and comment on any pull request, and comment on every decision.
 - **You can't:** push to the organization's repositories, merge, or set labels, issue types and milestones on other people's issues.
   Suggest a label or milestone in a comment, and a maintainer sets it.
-- **Your approval** of a pull request doesn't count toward merging, but GitHub records it, and the maintainers read it.
+- **Your approval** of a pull request doesn't count toward merging, because only maintainers approve pull requests; GitHub still records it, and the maintainers read it.
 
 ## Getting set up
 
@@ -65,12 +65,13 @@ Reviewing each other's work is one of the main things members do.
 
 ## Decisions
 
-The maintainers take the decisions listed in each repository's roadmap, by majority vote ([GOVERNANCE.md](GOVERNANCE.md#how-decisions-are-made)).
+The maintainers take the decisions listed in each repository's roadmap ([GOVERNANCE.md](GOVERNANCE.md#how-decisions-are-made)).
 
 - Every decision has an issue of type Decision; anyone can comment there.
 - Give your argument, with sources, in the issue.
   An argument made on Discord counts once someone writes it in the issue.
-- If the maintainers' vote is tied, the members decide by majority vote.
+- When the maintainers disagree, the organization's owner decides who settles it: a vote of the whole organization, of the team it concerns, or another way.
+  The owner says which in the issue.
 
 ## Talking and reporting
 
