@@ -5,6 +5,7 @@ It says how to do the everyday work: reviewing and merging pull requests, lookin
 It adds no rules of its own.
 The rules are in [GOVERNANCE.md](GOVERNANCE.md) and in each repository's `CONTRIBUTING.md`, and this page links to them; where they disagree, they win.
 GitHub words such as pull request, code owner and ruleset are explained in the [glossary](GLOSSARY.md).
+Members have their own [member guide](MEMBERS.md).
 
 ## In short
 

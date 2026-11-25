@@ -15,7 +15,7 @@ Words about the cyber-deck's hardware are in [Alopex's glossary](https://github.
 - **Maintainer:** a person who decides for a project and approves changes to it.
   The maintainers decide by majority vote ([governance](GOVERNANCE.md#maintainers)); the [maintainer guide](MAINTAINING.md) says how they do their everyday work.
 - **Member:** someone in the organization's `alopex` team.
-  Members suggest changes, review each other's work and take part in every decision.
+  Members suggest changes, review each other's work and take part in every decision ([member guide](MEMBERS.md)).
 - **Contributor:** anyone else who suggests a change or reports a problem.
 - **Coding agent:** an AI tool, such as Claude Code or Codex, that edits files when a person asks it to.
   The person who uses it is responsible for its work.
