@@ -2,7 +2,7 @@
 
 > **In short:** be kind and honest, respect other people and their views, and take responsibility when something goes wrong.
 > Harassment, insults, discrimination and sharing someone's private information are not allowed.
-> To report a problem, tell the maintainer privately, as [Reporting an Issue](#reporting-an-issue) explains.
+> To report a problem, tell the maintainers privately, as [Reporting an Issue](#reporting-an-issue) explains.
 > This summary is FoxieOS's own; the full text below is what applies.
 
 ## Our Pledge
@@ -51,14 +51,14 @@ We agree to restrict the following behaviors in our community. Instances, threat
 
 Tensions can occur between community members even when they are trying their best to collaborate. Not every conflict represents a code of conduct violation, and this Code of Conduct reinforces encouraged behaviors and norms that can help avoid conflicts and minimize harm.
 
-When an incident does occur, it is important to report it promptly. To report a possible violation, write to the maintainer privately.
+When an incident does occur, it is important to report it promptly. To report a possible violation, write to the maintainers privately.
 
 **How to report in FoxieOS:**
 
 - FoxieOS has no contact address for reports yet (FoxieOS roadmap decision D8, the security contact).
   Until it has one, use GitHub's [private reporting form](https://github.com/alopex-org/foxieos/security/advisories/new): in any repository in the organization, open the Security tab, then "Report a vulnerability".
 - Start the title with "Code of conduct:".
-  The form is meant for security problems, but only the maintainer can read what is sent through it.
+  The form is meant for security problems, but only the organization's owner, one of the maintainers, can read what is sent through it.
 - Don't report a code-of-conduct problem in a public issue.
 - You can also report content to GitHub directly, or report content on the Alopex Discord to Discord.
 
@@ -67,7 +67,7 @@ Community Moderators take reports of violations seriously and will make every ef
 
 ## Addressing and Repairing Harm
 
-In FoxieOS, the Community Moderators are the maintainer, who enforces this code of conduct and follows the remedies and repairs below.
+In FoxieOS, the Community Moderators are the maintainers, who enforce this code of conduct and follows the remedies and repairs below.
 
 If an investigation by the Community Moderators finds that this Code of Conduct has been violated, the following enforcement ladder may be used to determine how best to repair harm, based on the incident's impact on the individuals involved and the community as a whole. Depending on the severity of a violation, lower rungs on the ladder may be skipped.
 
@@ -95,7 +95,7 @@ This enforcement ladder is intended as a guideline. It does not limit the abilit
 
 In FoxieOS, the community spaces are the `alopex-org` GitHub organization and FoxieOS discussion on the Alopex Discord, the student organization's server.
 The server's owner runs the server.
-Reports about FoxieOS discussion there go to the maintainer, as [Reporting an Issue](#reporting-an-issue) describes.
+Reports about FoxieOS discussion there go to the maintainers, as [Reporting an Issue](#reporting-an-issue) describes.
 
 This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public or other spaces. Examples of representing our community include using an official email address, posting via an official social media account, or acting as an appointed representative at an online or offline event.
 

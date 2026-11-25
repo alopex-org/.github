@@ -7,7 +7,7 @@ GitHub words such as pull request, code owner and ruleset are explained in the [
 ## In short
 
 - The members held their founding meeting on 2026-11-24.
-- For now the project has one maintainer, the organization's owner; a second maintainer is to be appointed soon.
+- The projects have three maintainers: the organization's owner, who was the only one after the meeting, and two more appointed by them on 2026-11-26 ([Maintainers](#maintainers)).
 - The maintainers decide by majority vote; if a vote is tied, the members decide by majority vote.
 - One maintainer's approval lets a pull request merge.
 - Members keep read access and work from their own forks.
@@ -21,8 +21,8 @@ The members met on 2026-11-24 to choose the maintainers and confirm the projects
 This section records what the meeting decided.
 
 - **Maintainers.**
-  The organization's owner is the only maintainer for now.
-  A second maintainer is to be appointed soon; a pull request then adds them to this page and as a code owner.
+  The meeting kept the organization's owner as the only maintainer for now.
+  The meeting said a second maintainer would be appointed soon; the organization's owner appointed two on 2026-11-26 ([Maintainers](#maintainers)).
 - **How the maintainers decide.**
   By majority vote.
   If a vote is tied, the members decide by majority vote.
@@ -35,7 +35,7 @@ This section records what the meeting decided.
   They put their changes in their own forks and suggest them from there.
   Only maintainers push to the organization's repositories, merge, and label, assign or close other people's issues.
 - **Owners.**
-  The organization keeps one owner, the maintainer, for now ([Continuity](#continuity)).
+  The organization keeps one owner, @alevromitis, for now ([Continuity](#continuity)).
 - **The projects' foundations.**
   The meeting confirmed:
   - the move from an Android phone to a user-serviceable, portable cyber-deck with LoRa and Wi-Fi, pocket-sized if possible, for both projects;
@@ -48,9 +48,22 @@ This section records what the meeting decided.
 - **Maintainers' accounts.**
   A maintainer approves pull requests from a GitHub account that is a member of the organization and has two-factor authentication turned on.
 
+## Maintainers
+
+The maintainers of every project in the organization, with the GitHub accounts they work from:
+
+| Maintainer | Since | How |
+|---|---|---|
+| [@alevromitis](https://github.com/alevromitis) | 2026-11-24 | Chosen by the members at the founding meeting; also the organization's owner |
+| [@evansyrsiris](https://github.com/evansyrsiris) | 2026-11-26 | Appointed by @alevromitis, as the founding meeting foresaw |
+| [@Leandros64](https://github.com/Leandros64) | 2026-11-26 | Appointed by @alevromitis, as the founding meeting foresaw |
+
+Each repository's `.github/CODEOWNERS` lists the same accounts.
+A change to this list is made in a pull request that also updates those files.
+
 ## Roles
 
-- **The maintainers** are chosen by the members ([The founding meeting](#the-founding-meeting)); for now there is one, who also owns the organization.
+- **The maintainers** are listed under [Maintainers](#maintainers); one of them also owns the organization.
   The maintainers:
   - take the decisions listed in each repository's roadmap;
   - approve changes to the files they own as code owners;
@@ -88,7 +101,7 @@ This section records what the meeting decided.
   It has read access to every project repository, as the founding meeting decided.
 - **Project teams.**
   The `foxieos` and `alopex-hardware` teams each have write access to their own repository (`alopex-hardware` to `alopex`), and are kept for roles in that project.
-  They stay empty, apart from the maintainers, until the roles are decided and assigned.
+  They hold only the maintainers until the roles are decided and assigned.
 - **This `.github` repository** has no team.
   Its files apply to every repository, so only the maintainers change them, through pull requests.
 - **Protected `main`.**
@@ -99,7 +112,7 @@ This section records what the meeting decided.
   The code of conduct applies to FoxieOS discussion there, and reports go to the maintainers.
   Who moderates the server under the code of conduct isn't settled yet.
   The server's owner lets GitHub post to chosen channels (the Manage Webhooks permission).
-  The maintainers set up those GitHub connections and keeps their secret addresses out of the repositories, because anyone who has one can post to its channel.
+  The organization's owner sets up those GitHub connections and keeps their secret addresses out of the repositories, because anyone who has one can post to its channel.
 
 ## Continuity
 

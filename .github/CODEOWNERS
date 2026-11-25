@@ -1,5 +1,5 @@
 # Code owners: GitHub requests a review from these people on pull requests that touch the paths below.
-# Everything here applies to every repository in the organization, so every change needs the maintainer.
-# The founding meeting on 2026-11-24 kept @alevromitis as the only maintainer for now; a second maintainer is added next to them once appointed (GOVERNANCE.md).
+# Everything here applies to every repository in the organization, so every change needs a maintainer.
+# The maintainers (GOVERNANCE.md, Maintainers): @alevromitis, and since 2026-11-26 @evansyrsiris and @Leandros64.
 
-*   @alevromitis
+*   @alevromitis @evansyrsiris @Leandros64
