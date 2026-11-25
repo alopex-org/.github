@@ -93,9 +93,9 @@ Words about the cyber-deck's hardware are in [Alopex's glossary](https://github.
 
 ## Security and licences
 
-- **Private vulnerability reporting:** a GitHub form, under a repository's Security tab, for reporting a security problem so that only the maintainer sees it.
+- **Private vulnerability reporting:** a GitHub form, under a repository's Security tab, for reporting a security problem so that only the organization's owner sees it.
 - **Release keys:** the secret files that prove an update really comes from FoxieOS.
-  Only the maintainer handles them.
+  Only the maintainers handle them.
 - **Licence:** the terms under which others may use the files.
   The repositories use the Apache License 2.0; the code of conduct uses Creative Commons Attribution-ShareAlike 4.0.
 - **Webhook:** a secret address that lets one service post into another, for example GitHub announcing a release on Discord.

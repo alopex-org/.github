@@ -12,7 +12,7 @@ Never copy anything from them into a commit, pull request or issue.
 1. **Follow [foxieos's AGENTS.md](https://github.com/alopex-org/foxieos/blob/main/AGENTS.md)** for branches, commits, sign-off, review and how to write the docs.
 2. **Every change here affects every repository.**
    Keep a change to the files the repositories inherit (`CODE_OF_CONDUCT.md`, `GOVERNANCE.md`, `SUPPORT.md`) in step with the repositories' own docs, and propose the matching pull requests there.
-3. **Nothing outward-facing without the maintainer.**
+3. **Nothing outward-facing without a maintainer.**
    That includes pushing to any remote, changing organization settings and posting anything.
 4. **Keep private details out of the repository.**
    Describe machines by their role, never by name, address, hardware inventory or local path.
