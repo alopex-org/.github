@@ -61,6 +61,21 @@ The maintainers of every project in the organization, with the GitHub accounts t
 Each repository's `.github/CODEOWNERS` lists the same accounts.
 A change to this list is made in a pull request that also updates those files.
 
+### What the owner covers for now
+
+The other maintainers have write access to the project repositories, through the `foxieos` and `alopex-hardware` teams ([Access](#access)).
+There they approve and merge pull requests and look after issues.
+Some maintainer tasks need more access on GitHub than that, so for now the organization's owner does them alone:
+
+- **Security and code-of-conduct reports.**
+  Both arrive through GitHub's private reporting form, and only the organization's owner sees what is sent there.
+- **This `.github` repository.**
+  No team gives the maintainers write access here, so only the organization's owner approves its pull requests.
+- **Tags and releases, overriding the rules on `main`, and repository secrets.**
+  These need GitHub's admin role, which only the organization's owner has.
+
+This stays so until the maintainers decide how to share these tasks, for example with a team for the maintainers or another owner ([Continuity](#continuity)).
+
 ## Roles
 
 - **The maintainers** are listed under [Maintainers](#maintainers); one of them also owns the organization.
@@ -69,6 +84,8 @@ A change to this list is made in a pull request that also updates those files.
   - approve changes to the files they own as code owners;
   - handle security and code-of-conduct reports;
   - are the only people who handle release keys and publish releases.
+
+  For now the organization's owner does some of these alone ([What the owner covers for now](#what-the-owner-covers-for-now)).
 - **Members** belong to the `alopex` team, which covers every project in the organization.
   They open pull requests, review each other's changes and take part in the discussion of every decision.
 - **Contributors** are everyone else.
@@ -103,7 +120,7 @@ A change to this list is made in a pull request that also updates those files.
   The `foxieos` and `alopex-hardware` teams each have write access to their own repository (`alopex-hardware` to `alopex`), and are kept for roles in that project.
   They hold only the maintainers until the roles are decided and assigned.
 - **This `.github` repository** has no team.
-  Its files apply to every repository, so only the maintainers change them, through pull requests.
+  Its files apply to every repository, so only the maintainers change them, through pull requests; for now only the organization's owner approves them ([What the owner covers for now](#what-the-owner-covers-for-now)).
 - **Protected `main`.**
   A ruleset protects each repository's `main` branch.
   Each repository's `CONTRIBUTING.md` lists its rules.
