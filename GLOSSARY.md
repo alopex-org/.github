@@ -13,7 +13,7 @@ Words about the cyber-deck's hardware are in [Alopex's glossary](https://github.
   Alopex is also the name of the hardware project, whose repository is `alopex` (called `foxieos-hardware` until 2026-11-23).
 
 - **Maintainer:** a person who decides for a project and approves changes to it.
-  The maintainers decide by majority vote; for now there is one, the organization's owner ([governance](GOVERNANCE.md#the-founding-meeting)).
+  The maintainers decide by majority vote ([governance](GOVERNANCE.md#maintainers)); the [maintainer guide](MAINTAINING.md) says how they do their everyday work.
 - **Member:** someone in the organization's `alopex` team.
   Members suggest changes, review each other's work and take part in every decision.
 - **Contributor:** anyone else who suggests a change or reports a problem.
