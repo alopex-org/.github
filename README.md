@@ -8,6 +8,7 @@ When a repository in the organization has no code of conduct, governance or supp
 ## Files
 
 - [GOVERNANCE.md](GOVERNANCE.md): who decides what, who can change what, and what the founding meeting decided.
+- [MEMBERS.md](MEMBERS.md): how members get set up, suggest and review changes, and take part in decisions.
 - [MAINTAINING.md](MAINTAINING.md): how the maintainers review and merge pull requests, look after issues and record decisions.
 - [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md): how we treat each other, and how to report a problem privately.
 - [SUPPORT.md](SUPPORT.md): where to ask a question or report something.
