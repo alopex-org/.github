@@ -60,6 +60,7 @@ The maintainers of every project in the organization, with the GitHub accounts t
 
 Each repository's `.github/CODEOWNERS` lists the same accounts.
 A change to this list is made in a pull request that also updates those files.
+How the maintainers do their everyday work is in the [maintainer guide](MAINTAINING.md).
 
 ### What the owner covers for now
 
