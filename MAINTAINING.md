@@ -12,8 +12,9 @@ Members have their own [member guide](MEMBERS.md).
 - You approve and merge pull requests, and you look after issues, in `foxieos` and `alopex`.
 - Only maintainers approve pull requests, and never their own; ask another maintainer to approve yours.
 - A person, not a coding agent, reads every change to the roadmap, the design and the other sensitive areas each `CONTRIBUTING.md` lists.
+- Everyday pull requests stay open for two days before they merge; foundational ones, such as roadmap decisions, for seven days and with a majority of the maintainers.
 - Pull requests merge by rebasing, once the DCO check passes and every comment thread is resolved.
-- When the maintainers disagree, the organization's owner decides who settles it.
+- When the maintainers disagree, they talk it through, then vote, and the members vote if the maintainers can't decide.
 - A decision counts once it is written in its issue and in the roadmap, not when it is agreed on Discord.
 - Some tasks need more access than you have, so the organization's owner does them for now ([What only the owner can do](#what-only-the-owner-can-do-for-now)).
 
@@ -38,6 +39,8 @@ These need more access on GitHub than the project teams give, so the organizatio
 - approving pull requests to this `.github` repository;
 - creating tags and releases, overriding the rules on `main`, and managing repository secrets, teams and organization settings.
 
+The owner uses these powers to carry out what the maintainers decide, and overrides the rules on `main` only in the cases [GOVERNANCE.md](GOVERNANCE.md#the-organizations-owner) lists.
+
 If a task needs one of these, ask the owner in the issue or pull request.
 
 ## Before your first review
@@ -49,7 +52,8 @@ If a task needs one of these, ask the owner in the issue or pull request.
 ## Reviewing a pull request
 
 GitHub asks the maintainers for a review on every pull request, because `.github/CODEOWNERS` names them as owners of every file.
-One maintainer's approval is enough to merge, from a maintainer other than the author ([GOVERNANCE.md](GOVERNANCE.md#how-decisions-are-made)).
+For an everyday change, one maintainer's approval is enough to merge, from a maintainer other than the author.
+A foundational change, such as a roadmap decision, needs a majority of the maintainers ([GOVERNANCE.md](GOVERNANCE.md#how-changes-are-approved)).
 
 Check these before you approve:
 
@@ -79,21 +83,41 @@ Then choose:
 
 - **Approve** when the change is ready.
 - **Request changes** when something must change first, and say what.
+  If you still disagree after the author has answered, your review is an objection: the pull request doesn't merge until you approve it or the disagreement is settled ([Disagreements](#disagreements)).
 - **Comment** for questions and suggestions that don't block the merge.
 
 Only maintainers approve pull requests, so members' reviews don't count toward merging; answer their comments before merging, as `CONTRIBUTING.md` asks.
 
 **Your own pull requests** need another maintainer's approval; never approve or merge your own without one.
-For now no other maintainer can approve the owner's own pull requests in this `.github` repository, because only the owner approves here ([What only the owner can do](#what-only-the-owner-can-do-for-now)).
+In this `.github` repository GitHub counts only the owner's approval for now, so the other maintainers approve the owner's own pull requests here by writing "Approved" in a review or a comment ([What only the owner can do](#what-only-the-owner-can-do-for-now)).
+
+**Never dismiss another maintainer's review** that asks for changes, although GitHub lets you.
+Only the maintainer who wrote it withdraws it, unless [Disagreements](#disagreements) has settled the question; then link the result when you dismiss it.
+
+## Disagreements
+
+When maintainers disagree about a pull request or a decision, follow [Settling a disagreement](GOVERNANCE.md#settling-a-disagreement):
+
+1. Talk it through in the pull request or issue, with sources, for up to seven days.
+2. If that doesn't settle it, call a vote of the maintainers in a comment: everyone writes "for" or "against" within seven days, and the majority of the votes given decides.
+3. If the vote is tied or fewer than two maintainers vote, call a vote of the whole `alopex` team, with a link to the question; it decides by majority if at least half the team votes.
+
+If you call a vote, count it and write the result in the same place.
+If nothing is decided, nothing changes: the pull request closes, or the decision stays open.
 
 ## Merging
 
 A pull request can merge when:
 
-- a maintainer other than the author has approved it;
+- a maintainer other than the author has approved it, or a majority of the maintainers for a foundational change;
+- it has been open for at least two days, or seven days with its issue linked for a foundational change; GitHub doesn't check this, so you do ([GOVERNANCE.md](GOVERNANCE.md#how-changes-are-approved));
+- no maintainer's objection is still open;
 - no new commits were pushed after that approval, since a push cancels earlier approvals;
 - the DCO check has passed;
 - every review comment thread is resolved.
+
+A fix to a typo, a broken link or a failing check, or to a security problem that can't wait, may merge without the wait; say why in the pull request.
+If a maintainer objects to a change that merged early, reverse it in a new pull request, and let the change come back as an ordinary one.
 
 Merge with **Rebase and merge**, the only method the repositories allow.
 Each commit then lands on `main` as written, so check that the commit messages are ready before you merge.
@@ -117,17 +141,22 @@ Every decision (D), task (T) and check (C) in a repository's `docs/ROADMAP.md` h
 
 The maintainers take the decisions listed in each repository's roadmap ([GOVERNANCE.md](GOVERNANCE.md#how-decisions-are-made)).
 
+A roadmap decision is a foundational change ([GOVERNANCE.md](GOVERNANCE.md#foundational-changes)).
+
 1. The discussion happens in the decision's issue, where anyone can comment.
+   Post a link to the issue on the Alopex Discord, so the members know about it.
    Arguments made on Discord count once someone writes them there.
-2. The maintainers decide together, and each writes their view in the issue.
-   When they disagree, the organization's owner decides who settles it: a vote of the whole organization, of the team it concerns, or another way, and says which in the issue.
-   Write each vote, or a link to it, in the issue, so the record stays with the decision.
-3. A pull request records the decision and its date in `docs/ROADMAP.md`, and in `docs/DESIGN.md` if it changes the design.
-   It closes the decision's issue.
+2. A pull request records the proposed decision and its date in `docs/ROADMAP.md`, and in `docs/DESIGN.md` if it changes the design, and links the issue.
    A person reviews it, because it changes the roadmap.
+3. It merges after seven days, once a majority of the maintainers approve it; an author who is a maintainer counts.
+   If two members who aren't maintainers object in the issue, with reasons, the members vote instead.
+   If the maintainers disagree, follow [Disagreements](#disagreements).
+   Write each vote in the issue or pull request, so the record stays with the decision.
+4. Merging the pull request closes the decision's issue.
 
 ## Adding or removing a maintainer
 
+Adding or removing a maintainer is a foundational change, decided in an issue in this repository like a roadmap decision ([GOVERNANCE.md](GOVERNANCE.md#maintainers)).
 Once the change is decided:
 
 1. Open a pull request here that updates the table in [GOVERNANCE.md](GOVERNANCE.md#maintainers) and this repository's `.github/CODEOWNERS`.
@@ -144,7 +173,6 @@ Never put a release key, or anything copied from one, in a repository, an issue 
 
 ## Not settled yet
 
-- How the owner's own pull requests to this `.github` repository get another maintainer's approval.
 - How the tasks in [What only the owner can do](#what-only-the-owner-can-do-for-now) are shared among the maintainers, for example through a team for the maintainers or another owner.
 - Who moderates the Alopex Discord under the code of conduct.
 - A contact address for security reports (FoxieOS roadmap decision D8, the security contact).
