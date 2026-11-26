@@ -12,14 +12,14 @@ The maintainers have their own [maintainer guide](MAINTAINING.md).
 - You can read every repository, like everyone else, and you make your changes in your own fork.
 - You suggest changes through pull requests, and a maintainer merges them.
 - You review each other's pull requests, and the maintainers' own; your comments are answered before a pull request merges.
-- You take part in every decision by commenting in its issue.
+- You take part in every decision by commenting in its issue, and you vote when a disagreement reaches the members.
 - Discord is for talking; anything that should be kept goes in an issue or a pull request.
 
 ## What members do
 
 As the founding meeting decided ([GOVERNANCE.md](GOVERNANCE.md#the-founding-meeting)):
 
-- **You can:** open issues and pull requests, review and comment on any pull request, and comment on every decision.
+- **You can:** open issues and pull requests, review and comment on any pull request, comment on every decision, and vote when a question reaches the members.
 - **You can't:** push to the organization's repositories, merge, or set labels, issue types and milestones on other people's issues.
   Suggest a label or milestone in a comment, and a maintainer sets it.
 - **Your approval** of a pull request doesn't count toward merging, because only maintainers approve pull requests; GitHub still records it, and the maintainers read it.
@@ -50,6 +50,7 @@ In brief:
 3. Commit with a sign-off (`git commit -s`).
 4. Open a pull request, and say what you changed, why, and what you checked.
 5. Answer the review comments, until a maintainer approves and merges it.
+   Pull requests stay open for at least two days before they merge, so that others can read them.
 
 If you use an AI coding agent, you are responsible for its work as for your own, and you sign off its commits with your own name.
 
@@ -59,6 +60,7 @@ Reviewing each other's work is one of the main things members do.
 
 - Open a pull request, read the changes under "Files changed", and comment on the lines you have a question about.
 - Choose **Comment** for questions and suggestions, **Request changes** when something must change first, or **Approve** when you think it is ready.
+- If you object to a change, say why; a maintainer answers your objection in the pull request before it merges.
 - Check what each `CONTRIBUTING.md` asks of a change: a sign-off on every commit, a source for every fact, nothing private or secret, and a list of what was checked.
 - Some areas, such as the roadmap and the design, need a person to read every change.
   Each `CONTRIBUTING.md` lists them under "Review".
@@ -68,10 +70,17 @@ Reviewing each other's work is one of the main things members do.
 The maintainers take the decisions listed in each repository's roadmap ([GOVERNANCE.md](GOVERNANCE.md#how-decisions-are-made)).
 
 - Every decision has an issue of type Decision; anyone can comment there.
+  A link to it is posted on the Alopex Discord, and it stays open for at least seven days.
 - Give your argument, with sources, in the issue.
   An argument made on Discord counts once someone writes it in the issue.
-- When the maintainers disagree, the organization's owner decides who settles it: a vote of the whole organization, of the team it concerns, or another way.
-  The owner says which in the issue.
+- **Sending a question to the members.**
+  If you and at least one other member who isn't a maintainer object to a roadmap decision or another foundational change in its issue, within its seven days and with reasons, the question goes to a vote of the members ([GOVERNANCE.md](GOVERNANCE.md#foundational-changes)).
+- **When the maintainers disagree,** they talk it through and then vote; if their vote is tied, or too few of them vote, the members vote ([GOVERNANCE.md](GOVERNANCE.md#settling-a-disagreement)).
+- **Voting.**
+  A maintainer calls the vote in the pull request or issue.
+  Write "for" or "against" in a comment there within seven days; a vote on Discord doesn't count.
+  The majority of the votes given decides, if at least half the team votes; otherwise nothing changes.
+  You can ask once for seven more days, for example during exams.
 
 ## Talking and reporting
 

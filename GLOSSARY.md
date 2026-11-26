@@ -13,7 +13,9 @@ Words about the cyber-deck's hardware are in [Alopex's glossary](https://github.
   Alopex is also the name of the hardware project, whose repository is `alopex` (called `foxieos-hardware` until 2026-11-23).
 
 - **Maintainer:** a person who decides for a project and approves changes to it.
-  Only maintainers approve pull requests, never their own ([governance](GOVERNANCE.md#how-decisions-are-made)); the [maintainer guide](MAINTAINING.md) says how they do their everyday work.
+  Only maintainers approve pull requests, never their own ([governance](GOVERNANCE.md#how-changes-are-approved)); the [maintainer guide](MAINTAINING.md) says how they do their everyday work.
+- **Owner:** an account that controls the whole GitHub organization: its settings, teams, tags and secrets.
+  The organization's owner is also a maintainer, with the same say as the others ([governance](GOVERNANCE.md#the-organizations-owner)).
 - **Member:** someone in the organization's `alopex` team.
   Members suggest changes, review each other's work and take part in every decision ([member guide](MEMBERS.md)).
 - **Contributor:** anyone else who suggests a change or reports a problem.
@@ -70,6 +72,17 @@ Words about the cyber-deck's hardware are in [Alopex's glossary](https://github.
 - **Dependabot:** a GitHub bot that suggests updates to the tools the repository uses.
 - **Two-factor authentication (2FA):** a second step when you sign in, such as a code from an app.
   Every member needs it.
+
+## Deciding
+
+- **Everyday change:** any change that isn't foundational.
+  It needs one maintainer's approval and stays open for two days before it merges.
+- **Foundational change:** a change that shapes the projects or the organization, such as a roadmap decision, the governance page or who the maintainers are.
+  It stays open for seven days and needs a majority of the maintainers ([governance](GOVERNANCE.md#foundational-changes)).
+- **Objection:** a review that asks for changes and still stands after the author has answered.
+  A maintainer's objection stops the pull request from merging until the disagreement is settled.
+- **Majority of the votes given:** more "for" than "against" among the people who voted; people who didn't vote aren't counted.
+- **Revert:** a new change that undoes an earlier one.
 
 ## Tracking the work
 
